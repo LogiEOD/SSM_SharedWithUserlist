@@ -1,0 +1,17 @@
+<rdBookmarks>
+  <Bookmark Report="InfoGo.goAnalysisGrid" Name="" CustomColumn1="" CustomColumn2="" Description="Untitled Analysis" SaveTime="2017-09-28T09:51:51-04:00" BookmarkID="d540176b-cdb4-413a-a44e-e8dc88d3995e" ExtraFile="JoegoCollection_d540176b-cdb4-413a-a44e-e8dc88d3995e.xml">
+    <RequestParameters rdAgLoadSaved="JoegoCollection_d540176b-cdb4-413a-a44e-e8dc88d3995e.xml" />
+    <SessionParameters />
+  </Bookmark>
+  <Bookmark Report="InfoGo.goAnalysisGrid" Name="" CustomColumn1="" CustomColumn2="" Description="Joe's Category Report" SaveTime="2017-09-28T09:52:46-04:00" BookmarkID="07bad58b-c7b8-4ad8-b775-0d0862b0e775" ExtraFile="JoegoCollection_07bad58b-c7b8-4ad8-b775-0d0862b0e775.xml">
+    <RequestParameters rdAgLoadSaved="JoegoCollection_07bad58b-c7b8-4ad8-b775-0d0862b0e775.xml" />
+    <SessionParameters />
+    <SharedWith BookmarkCollection="woi9ru09aw4eij21goCollection" BookmarkUserName="woi9ru09aw4eij21" />
+    <SharedWith BookmarkCollection="lkajaflsjoiejgoCollection" BookmarkUserName="lkajaflsjoiej" />
+  </Bookmark>
+  <Folders />
+  <Bookmark Report="InfoGo.goReport" Name="" CustomColumn1="" CustomColumn2="" Description="Untitled Report" SaveTime="2017-09-28T12:01:16-04:00" BookmarkID="13694678-9981-499b-8588-c2b2d2d260c5" ExtraFile="JoegoCollection_13694678-9981-499b-8588-c2b2d2d260c5.xml">
+    <RequestParameters />
+    <SessionParameters />
+  </Bookmark>
+</rdBookmarks>

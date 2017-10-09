@@ -1,0 +1,44 @@
+<TemplateModifier>
+	<AppendChildElement ID="dlAllSharedWiths">
+		<NewElement>
+				<Join ID="Join1" JoinType="LeftOuterJoin">
+						<MatchCondition RightDataColumn="username" LeftDataColumn="BookmarkUserName" />
+						<IncludeSharedElement DefinitionFile="goCustomizations.goBookmarkSharingUserlist" SharedElementID="SharedUsersList" />
+					</Join>
+		</NewElement>
+	</AppendChildElement>
+  	<SetAttribute ID="compareIsFind" DataColumn="Username" />
+	<AppendChildElement XPath="//DataTable[@ID='dtBookmarkSharedWith']/DataLayer[1]">
+		<NewElement>
+				<Join ID="Join1" JoinType="LeftOuterJoin">
+						<MatchCondition RightDataColumn="username" LeftDataColumn="BookmarkUserName" />
+						<IncludeSharedElement DefinitionFile="goCustomizations.goBookmarkSharingUserlist" SharedElementID="SharedUsersList" />
+					</Join>
+		</NewElement>
+	</AppendChildElement>	
+	<SetAttribute XPath="//DataTable[@ID='dtBookmarkSharedWith']/DataTableColumn[1]" Class="ThemeHidden"/>
+	<InsertAfterElement XPath="//DataTable[@ID='dtBookmarkSharedWith']/DataTableColumn[1]">
+		<NewElement>
+				<DataTableColumn Width="25" WidthScale="%" id="colDisplayname">				
+					<Label Caption="@Data.displayname~" ID="lblSharedUserName" />
+				</DataTableColumn>
+		
+		</NewElement>
+	</InsertAfterElement>
+	<InsertAfterElement XPath="//DataTable[@ID='dtBookmarkSharedWith']/DataTableColumn[2]">
+		<NewElement>
+				<DataTableColumn Width="25" WidthScale="%" id="colClientID">				
+					<Label Caption="@Data.clientid~" ID="lblSharedClientID" />
+				</DataTableColumn>
+		
+		</NewElement>
+	</InsertAfterElement>
+	<InsertAfterElement XPath="//DataTable[@ID='dtBookmarkSharedWith']/DataTableColumn[3]">
+		<NewElement>
+				<DataTableColumn Width="25" WidthScale="%" id="colDisplayname">				
+					<Label Caption="@Data.clientname~" ID="lblSharedClientName" />
+				</DataTableColumn>
+		
+		</NewElement>
+	</InsertAfterElement>
+</TemplateModifier>
